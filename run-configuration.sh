@@ -1,2 +1,2 @@
 docker swarm init
-docker network create flipinet
+docker network create --scope=swarm flipinet
